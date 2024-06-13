@@ -1,0 +1,98 @@
+    .calendar {
+        width: 356px;
+        margin: 40px auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .prev,
+    .next {
+        cursor: pointer;
+        padding: 10px;
+        border: none;
+        border-radius: 50%;
+        background-color: #fff;
+        font-size: 18px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: #f0f0f0;
+    }
+
+    .days-2 {
+        width: 300px;
+        margin-left: 7px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .day-2 {
+        width: 30px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #666;
+    }
+
+    .dates-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .dates-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .date-2 {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #666;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        margin: 6px;
+        cursor: pointer;
+    }
+
+    .date-2:hover {
+        background-color: #f0f0f0;
+    }
+
+    .bg-danger-2 {
+        background-color: red;
+    }
+
+    .border-warning-2 {
+        border: rgb(0, 0, 0) 2px solid;
+    }
+
+    .bg-warning-2 {
+        background-color: orange;
+    }
+
+    .bg-info-2 {
+        background-color: aqua;
+    }
+
+    .text-white-2 {
+        color: white;
+    }
