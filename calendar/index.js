@@ -1,4 +1,4 @@
- const diasOcupados = [];
+const diasOcupados = [];
 let SHEET_ID = 'ID'
 let SHEET_TITLE = 'Name';
 let SHEET_RANGE = 'A2:A100';
