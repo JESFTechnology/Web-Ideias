@@ -103,8 +103,9 @@
 
         function prevMonth() {
             let mesAtual = new Date().getMonth();
+            let anoAtual = new Date().getFullYear();
             currentMonth--;
-            if (currentMonth < mesAtual) {
+            if (currentMonth < mesAtual && anoAtual == currentYear) {
                 currentMonth++;
                 return;
             }
